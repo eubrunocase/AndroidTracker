@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">AV2 Mobile</string>
+    <string name="link_map">Configurar Mapa</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="vetorial_choice">Vetorial</string>
+    <string name="satelite_choice">Satélite\n</string>
+    <string name="north_up_choice">North Up</string>
+    <string name="course_up_choice">Course Up</string>
+    <string name="pref_key">Tabela</string>
+    <string name="title_activity_track_recorder">TrackRecorder</string>
+    <string name="velocidade">0.0km/h</string>
+    <string name="distance_text">0m</string>
+    <string name="title_activity_tracker">TrackerActivity</string>
+    <string name="tracker_link">Registrar percurso</string>
+    <string name="content_description_settings_button">Botão de configuração</string>
+    <string name="start_button_text">Iniciar Percurso</string>
+    <string name="finish_button_textd">Finalizar Percurso</string>
+    <string name="title_activity_show">ShowActivity</string>
+    <string name="link_show_text">Mostrar Trajeto</string>
+    <string name="speed_icon_describe">Speed icon, a people running</string>
+    <string name="timer_icon_decribe">timer icon, A clock</string>
+    <string name="distance_icon_describe">distance icon</string>
+    <string name="text_button_show">Mostrar Linha</string>
+
+</resources>

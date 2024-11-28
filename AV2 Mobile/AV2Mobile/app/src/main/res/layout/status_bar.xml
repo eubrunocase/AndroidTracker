@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_status_bar">
+
+    <LinearLayout
+        android:id="@+id/speed_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/speed_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/speed_icon_describe"
+            android:src="@drawable/speed_icon" />
+
+        <TextView
+            android:id="@+id/speed_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/velocidade"
+            android:textColor="@color/black"
+            android:layout_marginLeft="12dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/timer_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/timer_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/timer_icon_decribe"
+            android:src="@drawable/clock_lines_svgrepo_com" />
+
+        <TextClock
+            android:id="@+id/timer_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/distance_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499">
+
+        <ImageView
+            android:id="@+id/distance_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/distance_icon_describe"
+            android:src="@drawable/distance_svgrepo_com" />
+
+        <TextView
+            android:id="@+id/distance_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/distance_text"
+            android:layout_marginLeft="12dp"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
